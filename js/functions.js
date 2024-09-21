@@ -55,6 +55,6 @@ function timeElapse(date){
 	if (seconds < 10) {
 		seconds = "0" + seconds;
 	}
-	var result = "hari <span class=\"digit\">" + days + "</span> jam <span class=\"digit\">" + hours + "</span> menit <span class=\"digit\">" + minutes + "</span>  <span class=\"digit\">" + seconds + "</span> 秒"; 
+	var result = "angka <span class=\"digit\">" + days + "</span> hari <span class=\"digit\">" + hours + "</span> hari <span class=\"digit\">" + minutes + "</span>  <span class=\"digit\">" + seconds + "</span> detik"; 
 	$("#clock").html(result);
 }
